@@ -1,0 +1,8 @@
+Test task:
+-       Implement HTML page and style it with CSS for screenshot attached. There should be no visual differences between screenshot and your page. Links should take you to google.com;
+-       Use div styling instead of tables;
+-       Images can be cut directly from the screenshot, no need to draw them yourself;
+-       Try to use Java Script for handling drop-down list behavior (labels below drop down list can change when you pick up different values from the list);
+-       web page should be resized dynamically when you resize browser’s window. Minimal supported resolution should be 800x600 pixels –page should not resize further if width/height are less than these values but scrolling should be visible instead;
+-       browsers to verify pages in: IE9.0, IE8.0, FF, Google Chrome;
+-       if you find that page in the internet – please do not copy the implementation from there, as that’s example of bad implementation and yours should be completely different. If you take images from there please do not forget to give them your own names.
