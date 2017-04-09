@@ -27,26 +27,10 @@ html, body {
     border-bottom: 1px solid #c6c6c6;
 }
 
-.main-content {
-    margin: auto;
-    padding: 2% 10%;
-}
-
-.footer {
-    position: absolute;
-    bottom: 0;
-    min-width: 100%;
-}
-
-.top-header-line, .bottom-header-line{
+.top-header-line, .bottom-header-line {
     float: right;
     margin-right: 5%;
     clear: both;
-}
-
-.menu-icon {
-    vertical-align: middle;
-    padding-right: 0.625em;
 }
 
 .button-checkout {
@@ -70,9 +54,30 @@ a.cart, .items-count {
     color: #BF0061;
 }
 
-.copyright-info{
+.main-aria {
+    margin: auto 5%;
+    padding: 2% 2%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    min-width: 100%;
+}
+
+.menu-icon {
+    vertical-align: middle;
+    padding-right: 0.625em;
+}
+
+.copyright-info {
     text-align: center;
-    line-height: 3em;
+    /*line-height: 2em;*/
+    font-size: 0.75em;
+}
+
+.payment-options {
+    text-align: center;
 }
 
 .clearfix::after {
@@ -80,4 +85,9 @@ a.cart, .items-count {
     display: block;
     height: 0;
     clear: both;
+}
+
+.main-aria, .logo-and-search, .top-navigation, .bottom-info, .main-content, .left-navigation, .content {
+    margin: 2px;
+    border: 2px solid red;
 }
