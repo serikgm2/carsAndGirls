@@ -59,16 +59,29 @@ a.cart, .items-count {
     padding: 2% 2%;
 }
 
+.left-navigation, .content {
+    display: inline-block;
+}
+
+.sign-up-for-email, .helpful-links, .connect-with-us {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.links-list1, .links-list2, .links-list3 {
+    display: inline-block;
+}
+
 .footer {
     position: absolute;
     bottom: 0;
     min-width: 100%;
 }
 
-.menu-icon {
-    vertical-align: middle;
-    padding-right: 0.625em;
-}
+/*.menu-icon {*/
+/*vertical-align: middle;*/
+/*padding-right: 0.625em;*/
+/*}*/
 
 .copyright-info {
     text-align: center;
@@ -79,6 +92,10 @@ a.cart, .items-count {
 .payment-options {
     text-align: center;
 }
+ul{
+    list-style: none;
+    padding: 0;
+}
 
 .clearfix::after {
     content: " ";
@@ -87,7 +104,7 @@ a.cart, .items-count {
     clear: both;
 }
 
-.main-aria, .logo-and-search, .top-navigation, .bottom-info, .main-content, .left-navigation, .content {
+* {
     margin: 2px;
     border: 2px solid red;
 }
