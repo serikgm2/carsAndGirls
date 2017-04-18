@@ -63,17 +63,24 @@ a.cart, .items-count {
     display: inline-block;
 }
 
+.bottom-info {
+    font-size: 0.75em;
+    text-align: center;
+}
+
 .sign-up-for-email, .helpful-links, .connect-with-us {
     display: inline-block;
     vertical-align: top;
+    text-align: left;
 }
-.email-input, .button-play{
+
+.email-input, .button-play {
     vertical-align: middle;
     height: 1.25em;
     float: left;
 }
 
-.email-input{
+.email-input {
     margin-right: 0;
     border: solid 1px #CCCCCC;
     padding: 2px;
@@ -105,6 +112,19 @@ a.cart, .items-count {
     display: inline-block;
 }
 
+.connect-info, .mobile-network {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.connect-with-us img {
+    vertical-align: middle;
+}
+
+.mobile-we {
+    font-weight: bold;
+}
+
 .footer {
     position: absolute;
     bottom: 0;
@@ -113,7 +133,6 @@ a.cart, .items-count {
 
 .copyright-info {
     text-align: center;
-    /*line-height: 2em;*/
     font-size: 0.75em;
 }
 
