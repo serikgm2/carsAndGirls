@@ -63,6 +63,31 @@ a.cart, .items-count {
     display: inline-block;
 }
 
+.bottom-car {
+    text-align: center;
+    padding: 1em 0.5em;
+    border-bottom: 1px solid #c6c6c6;
+    border-top: 1px solid #c6c6c6;
+}
+
+.bottom-car div {
+    display: inline-block;
+}
+
+.bottom-car-left {
+    float: left;
+}
+
+.bottom-car-middle {
+    padding: 0 3em;
+    border-left: 1px solid #c6c6c6;
+    border-right: 1px solid #c6c6c6;
+}
+
+.bottom-car-right {
+    float: right;
+}
+
 .bottom-info {
     font-size: 0.75em;
     text-align: center;
