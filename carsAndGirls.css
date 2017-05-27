@@ -74,18 +74,14 @@ a.cart, .items-count {
     display: inline-block;
 }
 
-.bottom-car-left {
-    float: left;
-}
-
-.bottom-car-middle {
-    padding: 0 3em;
+.bottom-car-separator {
+    margin: 0 1em;
     border-left: 1px solid #c6c6c6;
-    border-right: 1px solid #c6c6c6;
+    width: 1px;
 }
 
-.bottom-car-right {
-    float: right;
+.separator {
+    opacity: 0;
 }
 
 .bottom-info {
@@ -140,6 +136,7 @@ a.cart, .items-count {
 .connect-info, .mobile-network {
     display: inline-block;
     vertical-align: middle;
+    font-size: 0.9em;
 }
 
 .connect-with-us img {
